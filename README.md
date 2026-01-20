@@ -18,6 +18,8 @@ Single-server applications suffer downtime and data loss. This project solves th
 - Kubernetes Deployment, Service, PVC
 - Nginx container for website hosting
 - AWS EBS Persistent Volume for storage
+  
+- https://github.com/pratikshazac-ctrl/eks-ha-application/blob/main/architecture/ha%20-%20architecture.png
 
 ## Key Features
 - High Availability
@@ -61,9 +63,6 @@ This project includes a **static website** served as part of a highly available 
 - Images are served from a dedicated `images` directory
 - Optimized for containerized deployment using **Nginx**
 - Easily scalable using Kubernetes replicas
-
-### Architecture Diagram
-![Architecture Diagram](architecture/ha-architecture.png)
 
 ## Live Demo 
 http://aeb4f0f256d054d32b78017362ddfaeb-1887267208.ap-south-1.elb.amazonaws.com/
