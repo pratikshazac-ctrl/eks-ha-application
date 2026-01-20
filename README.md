@@ -50,9 +50,9 @@ AWS EKS, Kubernetes, Docker, Nginx, AWS EBS, kubectl, eksctl, HTML/CSS
 
 The static website is hosted in `website/` folder with all images in `website/images/`.
 
-## Live Demo (optional)
+## Live Demo 
 http://aeb4f0f256d054d32b78017362ddfaeb-1887267208.ap-south-1.elb.amazonaws.com/
 
 ## Conclusion
-This repo contains all files to recreate a highly available, persistent web application on AWS EKS.
+This repo contains all files to create a highly available, persistent web application on AWS EKS.
 
