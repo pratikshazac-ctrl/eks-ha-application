@@ -50,6 +50,10 @@ AWS EKS, Kubernetes, Docker, Nginx, AWS EBS, kubectl, eksctl, HTML/CSS
 
 The static website is hosted in `website/` folder with all images in `website/images/`.
 
+## Architecture
+
+![Architecture Diagram](architecture/architecture diagram.png
+
 ## Live Demo 
 http://aeb4f0f256d054d32b78017362ddfaeb-1887267208.ap-south-1.elb.amazonaws.com/
 
