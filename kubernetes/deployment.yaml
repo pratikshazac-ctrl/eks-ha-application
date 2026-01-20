@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ha-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ha-app
+  template:
+    metadata:
+      labels:
+        app: ha-app
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: web-storage
+          mountPath: /usr/share/nginx/html
+      volumes:
+      - name: web-storage
+        persistentVolumeClaim:
+          claimName: ha-pvc
+
